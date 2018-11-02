@@ -1,6 +1,6 @@
-# tensorflow_estimator
+# tensorflow estimator 个人使用经验总结
 
-## tf.estimator.train_and_evaluate 简介
+### tf.estimator.train_and_evaluate 简介
 字面理解这个 API 就是用来 train 然后 evaluate 一个 Estimator 的，函数的原型如下：
 tf.estimator.train_and_evaluate(
     estimator,
